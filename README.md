@@ -1,15 +1,7 @@
-# RFID-Attendance-Pro
+# IoT-Backend
 
-post data using a simple test.py after installing requests module
+## RFID-Attendance-Pro System - Guidance
 
-    import requests
+post data using curl
 
-    url = "http://localhost/IoT_backend/RFID%20Attendance%20Pro/upload.php"
-    data = {
-        "employee": "John Doe",
-        "clock_in": "2020-10-10 06:50:50",
-        "clock_out": "2020-10-10 17:50:50"
-    }
-
-    response = requests.post(url, data=data)
-    print(response.text)
+    curl -X POST "https://projects.benax.rw/f/o/r/e/a/c/h/p/r/o/j/e/c/t/s/629925151a2068e167771fdf7d3ed8c6/RFID-Attendance-Pro_System/upload.php" -d "employee=Harerimana JMV" -d "clock_in=2020-10-10 06:50:50" -d "clock_out=2020-10-10 17:50:50"
