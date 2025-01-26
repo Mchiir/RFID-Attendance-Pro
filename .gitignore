@@ -1,1 +1,8 @@
+# Ignored SQLite files
 *.sqlite
+
+# Ignored SQL data dumps
+*.sql
+
+# Ignored image files
+*.png
